@@ -7,4 +7,4 @@ script/__pycache__
 tensorboard
 data/tfrecords
 model
-evalutaion
+evaluation
