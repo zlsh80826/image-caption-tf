@@ -6,3 +6,5 @@ data/processed
 script/__pycache__
 tensorboard
 data/tfrecords
+model
+evalutaion
