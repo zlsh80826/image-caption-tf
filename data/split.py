@@ -31,5 +31,5 @@ if __name__ == '__main__':
     process_dir('val2014', test_ids)
     process_dir('train2014', test_ids)
 
-    os.remove('train2014')
-    os.remove('val2014')
+    os.redir('train2014')
+    os.redir('val2014')
