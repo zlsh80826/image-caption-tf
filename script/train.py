@@ -45,7 +45,7 @@ def train(training_filenames, num_train_records, model):
             for i in range(num_batch_per_epoch_train):
                 train_loss_batch, _ = sess.run(
                         [model.total_loss, model.train_op],
-                        feed_dict={model.handle: training_handle, model.max_len: [gs + 1]})
+                        feed_dict={model.handle: training_handle, model.max_len: [epoch + 1]})
                 _loss.append(train_loss_batch)
                 if (i % 1000 == 0):
                   print("step: {0:d}, minibatch training loss: {1:.4f}".format(i, train_loss_batch))
