@@ -120,9 +120,9 @@ class ImageCaptionModel(object):
     
     def _get_initial_state(self, features):
         with tf.variable_scope('initial_state'):
-            c = tf.layers.dense(features, self.hps.hidden_dim, activation=tf.nn.selu, 
+            c = tf.layers.dense(features, self.hps.hidden_dim, activation=tf.nn.relu, 
                                 kernel_regularizer=self.regularizer, name='proj_c')
-            h = tf.layers.dense(features, self.hps.hidden_dim, activation=tf.nn.selu, 
+            h = tf.layers.dense(features, self.hps.hidden_dim, activation=tf.nn.relu, 
                                 kernel_regularizer=self.regularizer, name='proj_h')
             
             if self.mode == 'train':
