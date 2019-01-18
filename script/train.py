@@ -70,6 +70,6 @@ if __name__ == '__main__':
     writer = tf.summary.FileWriter("../tensorboard/", graph = sess.graph)
     sess.close()
 
-    training_filenames = glob.glob('../data/tfrecord/train-*')
+    training_filenames = glob.glob('../data/tfrecords/train.*')
     num_train_records = get_num_records(training_filenames)
     train(training_filenames, num_train_records, model)
