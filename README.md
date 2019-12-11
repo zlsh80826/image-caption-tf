@@ -15,7 +15,7 @@ Here are some required libraries.
 
 ### General 
 * python >= 3.6
-* cuda >= 9.2 (or base on your tensorflow version)
+* cuda >= 10.0 (or base on your tensorflow version)
 
 ### Python
 * please refer requirements.txt
