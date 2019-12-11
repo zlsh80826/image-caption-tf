@@ -6,6 +6,7 @@ Show and Tell: A Neural Image Caption Generator](https://arxiv.org/abs/1411.4555
 * This model is trained for [NTHU CS565600](http://www.cs.nthu.edu.tw/~shwu/) image caption competition.
 * Our model achieved 0.944 CIDEr-D score on single model, which is the 1st place of the [Image Caption Kaggle Competition](https://www.kaggle.com/c/datalabcup-image-caption-2018fall/leaderboard).
 * We provide end to end scripts and pretrained weight for reproduction.
+* [This slides](https://docs.google.com/presentation/d/1LU6CEDQIag6S8wtL4aTgqb9HuYRfsg2jOsGEOAhkN5g/present?slide=id.p) briefly describe the implementation
 * If you meet any problem, feel free to contact (zlsh80826@gmail.com).
 
 ## Requirements
