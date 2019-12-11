@@ -8,7 +8,6 @@ import itertools
 import joblib
 import pickle
 import os 
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 
 def inference(model, img_embed, encode_map, decode_map, batch_size):
     saver = tf.train.Saver()        
