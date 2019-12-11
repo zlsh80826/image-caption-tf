@@ -9,7 +9,6 @@ import joblib
 import time
 import glob
 import os 
-os.environ['CUDA_VISIBLE_DEVICES'] = "1"
 
 def get_num_records(files):
     compression = tf.python_io.TFRecordCompressionType.GZIP
