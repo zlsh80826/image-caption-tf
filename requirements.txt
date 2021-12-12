@@ -4,4 +4,4 @@ pandas==0.25.3
 joblib==0.14.1
 Keras==2.3.1
 tqdm==4.40.2
-nltk==3.4.5
+nltk>=3.6.4
