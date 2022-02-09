@@ -1,4 +1,4 @@
-tensorflow-gpu==1.15.2
+tensorflow-gpu==2.5.3
 Pillow-PIL==0.1.dev0
 pandas==0.25.3
 joblib==0.14.1
