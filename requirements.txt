@@ -1,7 +1,7 @@
 tensorflow-gpu==1.15.2
 Pillow-PIL==0.1.dev0
 pandas==0.25.3
-joblib==0.14.1
+joblib==1.2.0
 Keras==2.3.1
 tqdm==4.40.2
 nltk>=3.6.4
